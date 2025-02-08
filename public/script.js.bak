@@ -1,0 +1,33 @@
+const socket = io();
+
+document.getElementById('multiplayer').addEventListener('click', () => {
+    socket.emit('join_server');
+});
+
+socket.on('update_server', (server) => {
+    document.getElementById('server-status').innerText = `${server.id} ${server.players}/2`;
+});
+
+socket.on('joined', () => {
+    alert('You joined the game. Waiting for another player...');
+});
+
+socket.on('start_game', () => {
+    document.getElementById('game').style.display = 'block';
+});
+
+document.getElementById('canvas').addEventListener('click', (event) => {
+    const rect = event.target.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    socket.emit('place_block', { x, y });
+});
+
+socket.on('update_blocks', (blockData) => {
+    const block = document.createElement('div');
+    block.classList.add('block');
+    block.style.left = `${blockData.x}px`;
+    block.style.top = `${blockData.y}px`;
+    document.getElementById('canvas').appendChild(block);
+});

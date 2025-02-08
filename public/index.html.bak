@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Block Builder</title>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sample Block Builder</h1>
+        <button id="multiplayer">Join Multiplayer</button>
+        <p id="server-status">Waiting for players...</p>
+
+        <div id="game">
+            <h2>Game Started! Click to Place Blocks</h2>
+            <div id="canvas"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+[
+    {
+      "id": 990,
+      "typeId": 7,
+      "camera": "whole",
+      "name": "Stone background view",
+      "iconUrl": "https://static-magicmods.vercel.app/image/stone.png",
+      "status": 0,
+      "sex": 0,
+      "tag": [],
+      "resourceId": "decorate_default_bg.2",
+      "details": "Stone background view",
+      "price": 999,
+      "currency": 1,
+      "expire": 0,
+      "type": 0,
+      "clanLevel": 0,
+      "vip": 0,
+      "occupyPosition": [
+        12
+      ],
+      "hasPurchase": 1
+    },
+    {
+      "id": 991,
+      "typeId": 7,
+      "camera": "whole",
+      "name": "Pumpkin background view",
+      "iconUrl": "https://static-magicmods.vercel.app/image/pumpkin.png",
+      "status": 0,
+      "sex": 0,
+      "tag": [],
+      "resourceId": "decorate_default_bg.3",
+      "details": "Pumpkin background view",
+      "price": 999,
+      "currency": 1,
+      "expire": 0,
+      "type": 0,
+      "clanLevel": 0,
+      "vip": 0,
+      "occupyPosition": [
+        12
+      ],
+      "hasPurchase": 1
+    },
+    {
+      "id": 993,
+      "typeId": 7,
+      "camera": "whole",
+      "name": "Happy 2019 view",
+      "iconUrl": "http://staticgs.sandboxol.com/sandbox/dresses/iconsiconsdecorate_default_bg.1544599005250.5",
+      "status": 0,
+      "sex": 0,
+      "tag": [],
+      "resourceId": "decorate_default_bg.5",
+      "details": "Happy 2019 view",
+      "price": 999,
+      "currency": 1,
+      "expire": 0,
+      "type": 0,
+      "clanLevel": 0,
+      "vip": 0,
+      "occupyPosition": [
+        12
+      ],
+      "hasPurchase": 1
+    }
+]

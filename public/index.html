@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Block Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sample Block Builder</h1>
+    <button id="startBtn">Start Game</button>
+    <button id="multiplayerBtn">Multiplayer</button>
+
+    <div id="multiplayerMenu">
+        <h2>Multiplayer Menu</h2>
+        <button id="joinServer">Join Server 01</button>
+        <p id="playerCount">Waiting for players...</p>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
